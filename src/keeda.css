@@ -19,7 +19,7 @@ header {
 nav {
     max-width: 1200px;
     margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -542,6 +542,7 @@ nav ul li:hover a {
     border-radius: 7px;
     color: white;
     cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
 .expriance-card-main p{
     color: rgba(33, 33, 33, 0.68);
@@ -564,9 +565,15 @@ nav ul li:hover a {
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    padding: 10px;  
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.c-1:hover{
+    box-shadow: rgba(58, 53, 65, 0.56) 0px 6px 18px -8px;
 }
 .c-1 img{
-    padding: 10px;  
     width: 100%;
     border-radius: 7px;
 }
@@ -576,4 +583,138 @@ nav ul li:hover a {
 }
 .break-overflows{
     overflow: hidden;
+    font-size: 18px;
 }
+.expriance-card-main h2 button:hover{
+    background-color: #1C2434;
+    box-shadow: 0px 6px 18px -8px rgba(58, 53, 65, 0.56);
+}
+.revews-gammings{
+    width: 100%;
+}
+.name-profile{
+    display: flex;
+    align-items: center;
+    color: rgba(33, 33, 33, 0.68);
+    margin-top: 10px;
+}
+.name-profile img{
+    width: 30px;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+.gamming-detail-descr{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.gamming-detail-descr p{
+    text-align: start;
+    color: rgba(33, 33, 33, 0.68);
+    font-weight: 400;
+    line-height: 25px;
+}
+.games-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px;
+    
+}
+.games-buttons p{
+    color: #5cc43e;
+}
+.games-buttons img{
+    width: 25px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #1C2434;
+    color: #FFF;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-top: 50px;
+  }
+  .width-1200{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    /* align-items: center; */
+  }
+  .footer-1{
+    width: 40%;
+    padding: 0px 56px;
+    text-align: start;
+  }
+  .footer-1 img{
+    width: 50%;
+  }
+  .footer-1 h6{
+    font-size: 16px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  .social-media{
+    display: flex;
+  }
+  .social-media img{
+    width: 30px;
+    margin: 15px 10px;
+    position: relative;
+  }
+  .hover{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .hover:hover{
+    background-color: #5cc43e;
+  }
+  .mains-footer-1 h2{
+    color: #5cc43e;
+    cursor: pointer;
+  }
+  
+  .details-menu div{
+    margin: 10px 0;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+  }
+  .details-menu div:hover{
+    color: #5cc43e;
+  }
+  .footer-1-flex{
+      width: 60%;
+      display: flex;
+      padding: 0px 45px;
+  }
+  .mains-footer-1{
+    width: 50%;
+    text-align: start;
+  }
+  .container{
+    width: 1200px;
+    margin: auto;
+  }
+  .container h4{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  .last-date-details{
+    width: 100%;
+    background-color: #5cc43e;
+    padding: 15px;
+  }

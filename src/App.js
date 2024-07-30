@@ -2,8 +2,15 @@ import logo from "./logo.svg";
 import downarrow from "./downarrow.svg";
 import "./App.css";
 import "./keeda.css";
-import sv1 from "./star.svg";
+import "./responsivekeeda.css";
+import sv1 from "./stars.svg";
 import quotes from "./quotess.svg";
+import right from "./right.svg";
+import insta from "./insta.svg";
+import X from "./X.svg";
+import link from "./link.svg";
+import face from "./face.svg";
+
 
 function App() {
   return (
@@ -370,25 +377,376 @@ function App() {
               creativity and coding skills.
             </p>
             <h2>
-
-            <button>VIEW ALL</button>
+              <button>VIEW ALL</button>
             </h2>
-          </div> 
+          </div>
         </div>
         <div className="w-1200">
           <div className="cards-gamming-cards">
             <div className="c-1">
-              <img src="https://examkeeda.s3.ap-south-1.amazonaws.com/blog/unlocking-3d-virtual-reality.webp" alt="" />
+              <div className="c1-imag">
+                <img
+                  src="https://examkeeda.s3.ap-south-1.amazonaws.com/blog/unlocking-3d-virtual-reality.webp"
+                  alt=""
+                />
+              </div>
               <div className="break-overflows">
-
-              <h4>Unlocking Possibilities: A Deep Dive into 3D.. Virtual Reality</h4>
+                <h4>
+                  Unlocking Possibilities: A Deep Dive into 3D... Virtual
+                  Reality
+                </h4>
+              </div>
+              <div className="revews-gammings">
+                <div className="name-profile">
+                  <img
+                    src="https://examkeeda.com/_next/image/?url=https%3A%2F%2Fexamkeeda.s3.ap-south-1.amazonaws.com%2Fstream%2F1707203675272-10920660.webp&w=32&q=75"
+                    alt=""
+                  />
+                  <p>Frameworks</p>
+                </div>
+                <div className="gamming-detail-descr">
+                  <p>
+                    Beyond Mobile: Flutter's Multiverse ExpandsIn the
+                    ever-evolving realm of app development, Flutter has
+                    transcended its mobile-first roots, blossoming into a
+                    versatile UI toolkit that empowers developers to conquer
+                    multiple platforms. This article delves into the innovative
+                    spirit of Flutter, exploring its potential to reshape the
+                    landscape of user experience across devices.A Single
+                    Codebase, Boundless PossibilitiesAt its core, Flutter isn't
+                    just about crafting beautiful mobile apps – it's about code
+                    unification. Flutter's magic lies in its ability to leverage
+                    a single codebase to build native applications for mobile,
+                    web, and even desktop environments. This eliminates the need
+                    for platform-specific coding, saving developers time and
+                    resources while fostering code consistency. Imagine crafting
+                    a stunning user interface once and deploying it seamlessly
+                    across various platforms, ensuring a cohesive brand
+                    experience for your users.Hot Reloading the Game: Iteration
+                    on SteroidsOne of Flutter's most game-changing features is
+                    Hot Reload. This revolutionary functionality allows
+                    developers to see code changes reflected in the running app
+                    in milliseconds, without the need for lengthy restarts. This
+                    fosters an iterative development process, enabling
+                    developers to experiment, refine, and perfect the user
+                    interface with lightning speed. Hot Reload streamlines the
+                    development workflow, boosting productivity and allowing for
+                    real-time collaboration, where changes can be discussed and
+                    implemented instantly.Widgets: The Building Blocks of
+                    BrillianceFlutter empowers developers to construct
+                    captivating user interfaces through a comprehensive set of
+                    customizable widgets. These widgets act as the building
+                    blocks of any Flutter app, ranging from fundamental elements
+                    like buttons and text fields to intricate interactive
+                    components. This rich library provides the flexibility to
+                    create anything from a simple to-do list to a visually
+                    stunning and feature-packed social media application. What's
+                    more, the widget-based architecture makes Flutter
+                    approachable for both seasoned developers and those new to
+                    the game, allowing them to craft exceptional user
+                    experiences with relative ease.Adapting to Every Screen:
+                    Responsive Design Made SimpleIn today's world of diverse
+                    screen sizes and resolutions, a responsive design approach
+                    is no longer a luxury, but a necessity. Flutter embraces
+                    this concept with open arms, providing a robust set of tools
+                    and widgets that automatically adapt user interfaces to
+                    different screen dimensions. This ensures that your app
+                    looks its best and delivers an intuitive experience
+                    regardless of whether it's displayed on a smartphone,
+                    tablet, or a large desktop monitor. With Flutter, you can be
+                    confident that your users will have a consistent and
+                    visually pleasing interaction, no matter the device they
+                    choose.A Thriving Community: Fueling InnovationThe Flutter
+                    community is a vibrant ecosystem brimming with passionate
+                    developers from all corners of the globe. This collaborative
+                    environment fosters knowledge sharing and innovation,
+                    leading to an extensive collection of open-source packages,
+                    plugins, and resources. Developers can leverage these
+                    readily available solutions to address various development
+                    challenges, accelerate their workflows, and push the
+                    boundaries of what's possible with Flutter.Conclusion:
+                    Beyond the HorizonFlutter has redefined the UI development
+                    landscape by offering a versatile and efficient toolkit that
+                    transcends the limitations of mobile development. Its
+                    ability to create cross-platform applications with a single
+                    codebase, coupled with features like Hot Reload, a rich
+                    widget library, and responsive design capabilities,
+                    positions Flutter as a powerful tool for shaping the future
+                    of user experience. As the Flutter ecosystem continues to
+                    evolve, one thing is certain: the possibilities for crafting
+                    exceptional and unified app experiences across various
+                    platforms are truly limitless. Embrace Flutter, and embark
+                    on a journey where innovation meets efficiency, and user
+                    experiences reach new heights.
+                  </p>
+                </div>
+                <div className="games-buttons">
+                  <p>Read more</p>
+                  <img src={right} alt="" />
+                </div>
               </div>
             </div>
-            <div className="c-1"></div>
-            <div className="c-1"></div>
-          </div> 
+
+
+            <div className="c-1">
+            <div className="c1-imag">
+                <img
+                  src="https://examkeeda.s3.ap-south-1.amazonaws.com/blog/flutter-ui-toolkit.webp"
+                  alt=""
+                />
+              </div>
+              <div className="break-overflows">
+                <h4>
+                  Unlocking Possibilities: A Deep Dive into 3D... Virtual
+                  Reality
+                </h4>
+              </div>
+              <div className="revews-gammings">
+                <div className="name-profile">
+                  <img
+                    src="https://examkeeda.com/_next/image/?url=https%3A%2F%2Fexamkeeda.s3.ap-south-1.amazonaws.com%2Fstream%2F1707203675272-10920660.webp&w=32&q=75"
+                    alt=""
+                  />
+                  <p>Frameworks</p>
+                </div>
+                <div className="gamming-detail-descr">
+                  <p>
+                    Beyond Mobile: Flutter's Multiverse ExpandsIn the
+                    ever-evolving realm of app development, Flutter has
+                    transcended its mobile-first roots, blossoming into a
+                    versatile UI toolkit that empowers developers to conquer
+                    multiple platforms. This article delves into the innovative
+                    spirit of Flutter, exploring its potential to reshape the
+                    landscape of user experience across devices.A Single
+                    Codebase, Boundless PossibilitiesAt its core, Flutter isn't
+                    just about crafting beautiful mobile apps – it's about code
+                    unification. Flutter's magic lies in its ability to leverage
+                    a single codebase to build native applications for mobile,
+                    web, and even desktop environments. This eliminates the need
+                    for platform-specific coding, saving developers time and
+                    resources while fostering code consistency. Imagine crafting
+                    a stunning user interface once and deploying it seamlessly
+                    across various platforms, ensuring a cohesive brand
+                    experience for your users.Hot Reloading the Game: Iteration
+                    on SteroidsOne of Flutter's most game-changing features is
+                    Hot Reload. This revolutionary functionality allows
+                    developers to see code changes reflected in the running app
+                    in milliseconds, without the need for lengthy restarts. This
+                    fosters an iterative development process, enabling
+                    developers to experiment, refine, and perfect the user
+                    interface with lightning speed. Hot Reload streamlines the
+                    development workflow, boosting productivity and allowing for
+                    real-time collaboration, where changes can be discussed and
+                    implemented instantly.Widgets: The Building Blocks of
+                    BrillianceFlutter empowers developers to construct
+                    captivating user interfaces through a comprehensive set of
+                    customizable widgets. These widgets act as the building
+                    blocks of any Flutter app, ranging from fundamental elements
+                    like buttons and text fields to intricate interactive
+                    components. This rich library provides the flexibility to
+                    create anything from a simple to-do list to a visually
+                    stunning and feature-packed social media application. What's
+                    more, the widget-based architecture makes Flutter
+                    approachable for both seasoned developers and those new to
+                    the game, allowing them to craft exceptional user
+                    experiences with relative ease.Adapting to Every Screen:
+                    Responsive Design Made SimpleIn today's world of diverse
+                    screen sizes and resolutions, a responsive design approach
+                    is no longer a luxury, but a necessity. Flutter embraces
+                    this concept with open arms, providing a robust set of tools
+                    and widgets that automatically adapt user interfaces to
+                    different screen dimensions. This ensures that your app
+                    looks its best and delivers an intuitive experience
+                    regardless of whether it's displayed on a smartphone,
+                    tablet, or a large desktop monitor. With Flutter, you can be
+                    confident that your users will have a consistent and
+                    visually pleasing interaction, no matter the device they
+                    choose.A Thriving Community: Fueling InnovationThe Flutter
+                    community is a vibrant ecosystem brimming with passionate
+                    developers from all corners of the globe. This collaborative
+                    environment fosters knowledge sharing and innovation,
+                    leading to an extensive collection of open-source packages,
+                    plugins, and resources. Developers can leverage these
+                    readily available solutions to address various development
+                    challenges, accelerate their workflows, and push the
+                    boundaries of what's possible with Flutter.Conclusion:
+                    Beyond the HorizonFlutter has redefined the UI development
+                    landscape by offering a versatile and efficient toolkit that
+                    transcends the limitations of mobile development. Its
+                    ability to create cross-platform applications with a single
+                    codebase, coupled with features like Hot Reload, a rich
+                    widget library, and responsive design capabilities,
+                    positions Flutter as a powerful tool for shaping the future
+                    of user experience. As the Flutter ecosystem continues to
+                    evolve, one thing is certain: the possibilities for crafting
+                    exceptional and unified app experiences across various
+                    platforms are truly limitless. Embrace Flutter, and embark
+                    on a journey where innovation meets efficiency, and user
+                    experiences reach new heights.
+                  </p>
+                </div>
+                <div className="games-buttons">
+                  <p>Read more</p>
+                  <img src={right} alt="" />
+                </div>
+              </div>
+            </div>
+
+
+            <div className="c-1">
+            <div className="c1-imag">
+                <img
+                  src="https://examkeeda.s3.ap-south-1.amazonaws.com/blog/data-science-ai-analytics.webp"
+                  alt=""
+                />
+              </div>
+              <div className="break-overflows">
+                <h4>
+                  Unlocking Possibilities: A Deep Dive into 3D... Virtual
+                  Reality
+                </h4>
+              </div>
+              <div className="revews-gammings">
+                <div className="name-profile">
+                  <img
+                    src="https://examkeeda.com/_next/image/?url=https%3A%2F%2Fexamkeeda.s3.ap-south-1.amazonaws.com%2Fstream%2F1707203675272-10920660.webp&w=32&q=75"
+                    alt=""
+                  />
+                  <p>Frameworks</p>
+                </div>
+                <div className="gamming-detail-descr">
+                  <p>
+                    Beyond Mobile: Flutter's Multiverse ExpandsIn the
+                    ever-evolving realm of app development, Flutter has
+                    transcended its mobile-first roots, blossoming into a
+                    versatile UI toolkit that empowers developers to conquer
+                    multiple platforms. This article delves into the innovative
+                    spirit of Flutter, exploring its potential to reshape the
+                    landscape of user experience across devices.A Single
+                    Codebase, Boundless PossibilitiesAt its core, Flutter isn't
+                    just about crafting beautiful mobile apps – it's about code
+                    unification. Flutter's magic lies in its ability to leverage
+                    a single codebase to build native applications for mobile,
+                    web, and even desktop environments. This eliminates the need
+                    for platform-specific coding, saving developers time and
+                    resources while fostering code consistency. Imagine crafting
+                    a stunning user interface once and deploying it seamlessly
+                    across various platforms, ensuring a cohesive brand
+                    experience for your users.Hot Reloading the Game: Iteration
+                    on SteroidsOne of Flutter's most game-changing features is
+                    Hot Reload. This revolutionary functionality allows
+                    developers to see code changes reflected in the running app
+                    in milliseconds, without the need for lengthy restarts. This
+                    fosters an iterative development process, enabling
+                    developers to experiment, refine, and perfect the user
+                    interface with lightning speed. Hot Reload streamlines the
+                    development workflow, boosting productivity and allowing for
+                    real-time collaboration, where changes can be discussed and
+                    implemented instantly.Widgets: The Building Blocks of
+                    BrillianceFlutter empowers developers to construct
+                    captivating user interfaces through a comprehensive set of
+                    customizable widgets. These widgets act as the building
+                    blocks of any Flutter app, ranging from fundamental elements
+                    like buttons and text fields to intricate interactive
+                    components. This rich library provides the flexibility to
+                    create anything from a simple to-do list to a visually
+                    stunning and feature-packed social media application. What's
+                    more, the widget-based architecture makes Flutter
+                    approachable for both seasoned developers and those new to
+                    the game, allowing them to craft exceptional user
+                    experiences with relative ease.Adapting to Every Screen:
+                    Responsive Design Made SimpleIn today's world of diverse
+                    screen sizes and resolutions, a responsive design approach
+                    is no longer a luxury, but a necessity. Flutter embraces
+                    this concept with open arms, providing a robust set of tools
+                    and widgets that automatically adapt user interfaces to
+                    different screen dimensions. This ensures that your app
+                    looks its best and delivers an intuitive experience
+                    regardless of whether it's displayed on a smartphone,
+                    tablet, or a large desktop monitor. With Flutter, you can be
+                    confident that your users will have a consistent and
+                    visually pleasing interaction, no matter the device they
+                    choose.A Thriving Community: Fueling InnovationThe Flutter
+                    community is a vibrant ecosystem brimming with passionate
+                    developers from all corners of the globe. This collaborative
+                    environment fosters knowledge sharing and innovation,
+                    leading to an extensive collection of open-source packages,
+                    plugins, and resources. Developers can leverage these
+                    readily available solutions to address various development
+                    challenges, accelerate their workflows, and push the
+                    boundaries of what's possible with Flutter.Conclusion:
+                    Beyond the HorizonFlutter has redefined the UI development
+                    landscape by offering a versatile and efficient toolkit that
+                    transcends the limitations of mobile development. Its
+                    ability to create cross-platform applications with a single
+                    codebase, coupled with features like Hot Reload, a rich
+                    widget library, and responsive design capabilities,
+                    positions Flutter as a powerful tool for shaping the future
+                    of user experience. As the Flutter ecosystem continues to
+                    evolve, one thing is certain: the possibilities for crafting
+                    exceptional and unified app experiences across various
+                    platforms are truly limitless. Embrace Flutter, and embark
+                    on a journey where innovation meets efficiency, and user
+                    experiences reach new heights.
+                  </p>
+                </div>
+                <div className="games-buttons">
+                  <p>Read more</p>
+                  <img src={right} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
+      <footer>
+      <div className="width-1200">
+        <div className="footer-1">
+          <img
+            src="https://examkeeda.com/_next/image/?url=%2Fimages%2Fexam-keeda-white.svg&w=256&q=75"
+            alt=""
+          />
+          <h6>
+            Exam Keeda is an online practice platform that has been operating
+            since 2024 until now.
+          </h6>
+          <div className="social-media">
+        <div className="hover"> <img src={insta} alt="" /></div>
+        <div className="hover"><img src={X} alt="" /></div>
+        <div className="hover"><img src={link} alt="" /></div>
+        <div className="hover"><img src={face} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="footer-1-flex">
+        <div className="mains-footer-1">
+
+          <h2>Menu</h2>
+          <div className="details-menu">
+            <div>Home</div>
+            <div>Tutorials</div>
+            <div>Typing Practice</div>
+            <div>Blog</div>
+            <div>Contact Us</div>
+          </div>
+        </div>
+        <div className="mains-footer-1">
+
+          <h2>About</h2>
+          <div className="details-menu">
+            <div>Contact Us</div>
+            <div>Privacy & Policy</div>
+            <div>Term & Service</div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div className="last-date-details">
+        <div className="container">
+            <h4>© 2024 All Rights Reserved by Exam Keeda</h4>
+        </div>
+      </div>
+    </footer>
     </div>
   );
 }
